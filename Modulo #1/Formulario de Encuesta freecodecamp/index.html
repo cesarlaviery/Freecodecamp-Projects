@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" charset="UTF-8">
+    <title>Formulario de Encuesta Desarrollo Web Frond-end</title>
+</head>
+
+<body>
+    <main>
+        <h1 id="title">Formulario de Encuesta Desarrollo Web Frond-end</h1>
+        <p id="description">Graciar por tomarse el tiempo de responder la encuesta.</p>
+        <form id="survey-form">
+            <fieldset id="encuesta">
+                <label for="name" id="name-label">Ingrese su
+                    nombre:<br><input id="name" type="text" placeholder="nombre" required></label>
+                <label for="email" id="email-label">Ingrese su correo
+                    electronico:<br><input id="email" type="email" placeholder="email" required></label>
+                <label for="number" id="number-label">Ingrese su
+                    edad: <span>(Opcional)</span><br><input id="number" type="number" min="14" max="120" placeholder="edad"></label>
+            </fieldset>
+            <fieldset id="encuesta">
+                <label for="desplegable" class="texto">¿Que se te hizo mas facil aprender?</label>
+                <select name="desplegable" id="desplegable">
+                    <option value="1">HTML</option>
+                    <option value="2">CSS</option>
+                    <option value="3">JavaScript</option>
+                    </label>
+                </select>
+                <label for="nivel" class="texto">¿Que nivel de conocimiento front-end crees que tienes?</label>
+                <label for="botones">
+                    <label for="principiante"><input type="radio" name="nivel" id="principiante"
+                            value="1">Principiante</label>
+                    <label for="avanzado"></label><input type="radio" name="nivel" id="avanzado"
+                        value="2">Avanzado</label>
+                <label for="experto"></label><input type="radio" name="nivel" id="experto" value="3">Experto</label>
+                </label>
+                <label for="frameworks" class="texto">¿Cual de estos frameworks dominas?</label>
+                <label for="Casillas">
+                    <label for="Casillas"></label><input type="checkbox" id="angular" value="1">Angular</label>
+                    <label for="Casillas"></label><input type="checkbox" id="react" value="2">React.js</label>
+                    <label for="Casillas"></label><input type="checkbox" id="vue" value="3">Vue.js</label>
+                </label>
+                <label for="experiencia" class="texto">¿Como fue tu experiencia aprendiendo desarrolo web frond-end?</label>
+                <label for="area">
+                    <textarea name="comentario" id="comentario" cols="10" rows="10" placeholder="Cuentenos como fue su experiencia..."></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" id="submit" id="submit">
+        </form>
+    </main>
+</body>
+
+</html>

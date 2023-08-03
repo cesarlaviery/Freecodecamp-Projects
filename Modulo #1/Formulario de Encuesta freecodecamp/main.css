@@ -1,0 +1,150 @@
+* {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 200vh;
+    margin: 0;
+    font-size: 16px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/26/man-593333_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #3e637a86;
+    padding-top: 10px;
+}
+
+#title {
+    font-size: 35px;
+    text-align: center;
+}
+
+#description {
+    font-size: 18px;
+    text-align: center;
+}
+
+#survey-form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: #5c8dada9;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: none;
+    padding: 0.5rem;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+#encuesta {
+    margin-left: -40px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+#name,
+#email,
+#number,
+#desplegable,
+option {
+    border-radius: 5px;
+    border-color: #a0bdcf;
+    border-style: solid;
+    font-size: 16px;
+    width: 100%;
+    height: 30px;
+    padding: 0 13px;
+    margin-left: -5px;
+    margin-top: 10px;
+    color: black;
+}
+
+#name:hover {
+    border-color: #fff;
+    cursor: pointer;
+}
+
+#email:hover {
+    border-color: #fff;
+    cursor: pointer;
+}
+
+#number:hover {
+    border-color: #fff;
+    cursor: pointer;
+}
+
+#comentario:hover {
+    border-color: #fff;
+    cursor: pointer;
+}
+
+span {
+    font-size: 16px;
+}
+
+#desplegable, #experto, #vue {
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+.texto {
+    margin-left: -5px;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+input[type=radio] {
+    display: inline-flex;
+    margin-right: 5px;
+    min-height: 15px;
+    min-width: 15px;
+}
+
+input[type=checkbox] {
+    display: inline-flex;
+    margin-right: 5px;
+    min-height: 15px;
+    min-width: 15px;
+}
+
+#comentario {
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #a0bdcf;
+    border-style: solid;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+input[type="submit"] {
+    color: #1c2c36;
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 18px;
+    background-color: #c9d9e4;
+    min-width: 300px;
+    border-radius: 5px;
+    border-color: #a0bdcf;
+    border-style: solid;
+}
